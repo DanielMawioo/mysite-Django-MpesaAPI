@@ -46,7 +46,7 @@ def register_urls(request):
     access_token = MpesaAccessToken.validated_mpesa_access_token
     api_url = "https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl"
     headers = {"Authorization": "Bearer %s" % access_token}
-    options = {"ShortCode": LipanaMpesaPpassword.Business_short_code,
+    options = {"ShortCode": LipanaMpesaPpassword.Test_c2b_shortcode,
                "ResponseType": "Completed",
                "ConfirmationURL": "https://8472-197-232-61-238.ngrok.io/api/v1/c2b/confirmation",
                "ValidationURL": "https://8472-197-232-61-238.ngrok.io/api/v1/c2b/validation"}
