@@ -1,4 +1,4 @@
-### Mpesa(Daraja Api) and Django integration.
+# Mpesa(Daraja Api) and Django integration.
 
 Created on, September 24th 2021
 
